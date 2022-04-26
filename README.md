@@ -9,7 +9,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ![Desktop-first](./images/Screens-shots/Desktop-first-stage.jpg)
 ![Mobile-first](./images/Screens-shots/Mobile-first-stage.jpg)
 ![Desktop-second](./images/Screens-shots/Desktop-second-stage.jpg)
-![Mobile-second](./images/Screens-shots/Desktop-second-stage.jpg)
+![Mobile-second](./images/Screens-shots/Mobile-second-stage.jpg)
 
 ### Links
 
