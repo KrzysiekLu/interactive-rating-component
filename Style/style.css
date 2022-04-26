@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+:root {
+  --body-background-color: hsl(216, 12%, 8%);
+  --card-background-color: hsl(213, 19%, 18%);
+  --buttons-background-color: hsl(212, 21%, 24%);
+  --buttons-hover-bacground-color: hsl(216, 12%, 54%);
+  --text-primary-color: hsl(0, 0%, 100%);
+  --text-secondary-color: hsl(217, 12%, 63%);
+  --accent-color: hsl(25, 97%, 53%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: var(--body-background-color);
+  font-family: "Overpass", sans-serif;
+}
+
+.rating-component {
+  max-width: 90%;
+  background-color: var(--card-background-color);
+  padding: 1.3rem;
+  border-radius: 1.2rem;
+}
+
+.rating-component_icon {
+  padding: 0.9rem;
+  background-color: var(--buttons-background-color);
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+.rating-component_title {
+  color: var(--text-primary-color);
+  margin-bottom: 1rem;
+}
+
+.rating-component_message {
+  font-size: 15px;
+  color: var(--text-secondary-color);
+  margin-bottom: 2rem;
+  line-height: 1.5rem;
+}
+
+.rating-component .opinion-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.rating-component .opinion-box_button {
+  background-color: var(--buttons-background-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  color: var(--text-secondary-color);
+}
+
+.rating-component .opinion-box_button:hover {
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  background-color: var(--accent-color);
+  color: var(--text-primary-color);
+}
+
+.rating-component .opinion-box .btn-clicked {
+  background-color: var(--buttons-hover-bacground-color);
+  color: var(--text-primary-color);
+}
+
+.rating-component_submit-button {
+  width: 100%;
+  border: none;
+  background-color: var(--accent-color);
+  padding: 0.8rem;
+  border-radius: 3rem;
+  font-size: 15px;
+  color: var(--text-primary-color);
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.rating-component_submit-button:hover {
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
+  background-color: var(--text-primary-color);
+  color: var(--accent-color);
+}
+
+.thanking-component {
+  max-width: 90%;
+  background-color: var(--card-background-color);
+  padding: 1.3rem;
+  border-radius: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thanking-component_ilustration {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.thanking-component_rating-mesage {
+  background-color: var(--buttons-background-color);
+  font-size: 15px;
+  color: var(--accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.thanking-component_title {
+  color: var(--text-primary-color);
+  margin-bottom: 1rem;
+}
+
+.thanking-component_message {
+  font-size: 14px;
+  text-align: center;
+  color: var(--text-secondary-color);
+  margin-bottom: 1rem;
+}
+
+.hidde {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 400px) {
+  .rating-component {
+    max-width: 60%;
+  }
+  .thanking-component {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 900px) {
+  .rating-component {
+    max-width: 25%;
+  }
+  .thanking-component {
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .rating-component {
+    max-width: 18%;
+  }
+  .thanking-component {
+    max-width: 18%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
