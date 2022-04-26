@@ -1,6 +1,7 @@
 :root {
   --body-background-color: hsl(216, 12%, 8%);
-  --card-background-color: hsl(213, 19%, 18%);
+  --card-background-color-secondary: hsl(220, 10%, 11%);
+  --card-background-color-primary: hsl(213, 19%, 18%);
   --buttons-background-color: hsl(212, 21%, 24%);
   --buttons-hover-bacground-color: hsl(216, 12%, 54%);
   --text-primary-color: hsl(0, 0%, 100%);
@@ -28,9 +29,14 @@ body {
 
 .rating-component {
   max-width: 90%;
-  background-color: var(--card-background-color);
+  background: linear-gradient(
+    to right bottom,
+    var(--card-background-color-primary),
+    var(--card-background-color-secondary)
+  );
   padding: 1.3rem;
   border-radius: 1.2rem;
+  margin-bottom: 1rem;
 
   &_icon {
     padding: 0.9rem;
@@ -92,12 +98,17 @@ body {
 }
 .thanking-component {
   max-width: 90%;
-  background-color: var(--card-background-color);
+  background: linear-gradient(
+    to right bottom,
+    var(--card-background-color-primary),
+    var(--card-background-color-secondary)
+  );
   padding: 1.3rem;
   border-radius: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 
   &_ilustration {
     margin-top: 1.5rem;
