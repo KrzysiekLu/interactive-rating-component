@@ -38,10 +38,10 @@ body {
 }
 
 .rating-component {
-  max-width: 90%;
+  max-width: 98%;
   background: -webkit-gradient(linear, left top, right bottom, from(var(--card-background-color-primary)), to(var(--card-background-color-secondary)));
   background: linear-gradient(to right bottom, var(--card-background-color-primary), var(--card-background-color-secondary));
-  padding: 1.3rem;
+  padding: 2rem;
   border-radius: 1.2rem;
   margin-bottom: 1rem;
 }
@@ -125,10 +125,10 @@ body {
 }
 
 .thanking-component {
-  max-width: 90%;
+  max-width: 98%;
   background: -webkit-gradient(linear, left top, right bottom, from(var(--card-background-color-primary)), to(var(--card-background-color-secondary)));
   background: linear-gradient(to right bottom, var(--card-background-color-primary), var(--card-background-color-secondary));
-  padding: 1.3rem;
+  padding: 2rem;
   border-radius: 1.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
